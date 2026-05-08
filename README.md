@@ -3,6 +3,7 @@
 Una herramienta web gratuita para formatear texto con Markdown de Discord. Escribe en el editor y ve el resultado en tiempo real con el aspecto visual exacto de Discord.
 
 ![Discord Formatter Preview](./docs/preview-light.png)
+![Discord Formatter Preview](./docs/preview-dark.png)
 
 ## ✨ Funcionalidades
 
