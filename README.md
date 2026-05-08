@@ -1,16 +1,54 @@
-# React + Vite
+# Discord Formatter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una herramienta web gratuita para formatear texto con Markdown de Discord. Escribe en el editor y ve el resultado en tiempo real con el aspecto visual exacto de Discord.
 
-Currently, two official plugins are available:
+![Discord Formatter Preview](https://tu-dominio.com/og-image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Funcionalidades
 
-## React Compiler
+- **Preview en tiempo real** — ve cómo quedará tu texto en Discord mientras escribes
+- **Barra de herramientas completa** — botones para todos los formatos de Markdown de Discord
+- **Modo claro / oscuro** — cambia entre temas con un solo clic
+- **Multiidioma** — interfaz en español e inglés, detecta el idioma del navegador automáticamente
+- **Contador de caracteres** — aviso visual al acercarte al límite de 2000 caracteres
+- **Copiar al portapapeles** — copia el texto formateado con un clic
+- **Spoilers clicables** — en el preview puedes revelar los spoilers haciendo clic
+- **Responsive** — funciona en móvil, tablet y escritorio
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 Formatos soportados
 
-## Expanding the ESLint configuration
+| Formato           | Sintaxis        |
+| ----------------- | --------------- |
+| Negrita           | `**texto**`     |
+| Cursiva           | `*texto*`       |
+| Subrayado         | `__texto__`     |
+| Tachado           | `~~texto~~`     |
+| Negrita + cursiva | `***texto***`   |
+| Spoiler           | `\|\|texto\|\|` |
+| Código inline     | `` `texto` ``   |
+| Bloque de código  | ` ```lenguaje ` |
+| Encabezado H1     | `# texto`       |
+| Encabezado H2     | `## texto`      |
+| Encabezado H3     | `### texto`     |
+| Subtexto          | `-# texto`      |
+| Cita              | `> texto`       |
+| Cita multilínea   | `>>> texto`     |
+| Lista             | `- texto`       |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Lucide React](https://lucide.dev/)
+- [Sonner](https://sonner.emilkowal.ski/)
+- [Flag Icons](https://flagicons.lipis.dev/)
+
+## 🌐 Demo
+
+[discord-formatter.vercel.app](https://tu-dominio.com)
+
+## 📄 Licencia
+
+MIT © [xNando](https://github.com/xNando)
